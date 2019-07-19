@@ -1,20 +1,24 @@
+package com.ebox;
+
+
 import java.util.*;
 
 public class Land{
 		public static void main(String args[]){
 		int field;
 		Scanner sc = new Scanner(System.in);
-		int num=6;
-		if(num%2 !=0 && num%3 !=0){
+		int n=sc.nextInt();
+		if(n%2==0 && n%3==0)
+		{
+			
+				field=n/3;
+				System.out.println(field +" "+field+" "+field);
+			
+			
+		}
+		else {
 			System.out.println("NO");
 		}
-		else{
-			int share=num/3;
-			System.out.println("YES");
-			for(int i=0;i<3;i++)
-				System.out.print(share+" ");
-						
-			}
 	
 }
 
