@@ -8,18 +8,24 @@ public class Land{
 		int field;
 		Scanner sc = new Scanner(System.in);
 		int n=sc.nextInt();
-		if(n%2==0 && n%3==0)
+		if(n%2==0)
 		{
-			
+			if(n%3==0) {
 				field=n/3;
 				System.out.println(field +" "+field+" "+field);
-			
-			
+			}
+			else {
+				System.out.println("NO");
+			}
 		}
 		else {
 			System.out.println("NO");
 		}
 	
 }
+		
+		public void disp() {
+			System.out.println("hello");
+		}
 
 }
