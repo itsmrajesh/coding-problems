@@ -3,6 +3,18 @@ package com.leetcode;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*Print the first missing number to stdout 
+ * 
+ * EX:
+ * arr={0,1,2}
+ * 
+ * output : 3
+ * 
+ * arr={-1,-2,3,2}
+ * 
+ * output : 1
+ * 
+ * */
 public class MissingNumber {
 
 	public static void main(String[] args) {
@@ -20,7 +32,7 @@ public class MissingNumber {
 	public static int getMissing(int[] arr, int n) {
 		int res;
 		if (n <= 1) {
-			return arr[0] > 1 ? arr[0] + 1 : 1;
+			return arr[0] >= 1 ? arr[0] + 1 : 1;
 		}
 		if (arr[0] > 1) {
 			return 1;
