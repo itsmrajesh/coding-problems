@@ -8,8 +8,8 @@ public class RemoveSubString {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
-		String sub = sc.next();
+		String s = sc.nextLine().toLowerCase();
+		String sub = sc.next().toLowerCase();
 		char[] ch = s.toCharArray();
 		char[] subCh = sub.toCharArray();
 		String c;
