@@ -1,4 +1,6 @@
-# coding-problems solutions for HackerRank
-This repo contains some solutions for hackerrank problem statements
+# Competitive Programming Repo
 
-# To find problem statments for solution in this Repo , type ClassName of particular problem in google search followed by hackerRank 
+## This Repo contains commonly programming questions 
+
+### This repo Contains solutions for hackerrank , leetcode and some other programming questions solutions
+
