@@ -26,10 +26,11 @@ public class CropRotation {
 	}
 
 	private static void rotateArrToRight(String[] arr, int times) {
+		String temp;
 			for(int i=0;i<times;i++)
 			{	
 				int j,len=arr.length;
-				String temp=arr[len-1];
+				 temp=arr[len-1];
 				for(j=len-1;j>0;j--) {
 					arr[j]=arr[j-1];
 				}
