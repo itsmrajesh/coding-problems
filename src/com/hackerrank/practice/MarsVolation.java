@@ -11,7 +11,7 @@ public class MarsVolation {
 
 	private static int marsExploration(String s) {
 		int count = 0, len = s.length();
-		for (int i = 0; i <= len - 3; i = i + 3) {
+		for (int i = 0; i < len ; i = i + 3) {
 			if (s.charAt(i) != 'S') {
 				count++;
 			}
