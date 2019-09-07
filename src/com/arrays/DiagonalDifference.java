@@ -1,7 +1,7 @@
 package com.arrays;
 
 public class DiagonalDifference {
-	/*Find the diagonal difference of 2D Square matrix  */
+	/*Find the diagonal difference of 2D Square(rows == columns) matrix  */
 
 	public static void main(String[] args) {
 			int arr[][]= {{1,2,3},{4,5,6},{7,8,9}};
