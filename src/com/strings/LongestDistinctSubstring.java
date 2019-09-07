@@ -2,11 +2,11 @@ package com.strings;
 
 import java.util.HashSet;
 import java.util.Set;
-
+/*Problem Statement https://practice.geeksforgeeks.org/problems/longest-distinct-characters-in-string/0/?track=md-string&batchId=144 */
 public class LongestDistinctSubstring {
 
 	public static void main(String[] args) {
-			String s = "abababcdefababcdab";
+			String s = "aldshflasghdfasgfkhgasdfasdgvfyweofyewyrtyefgv";
 			int res=getLongestDistinctSubstring(s);
 			System.out.println(res);
 	}
