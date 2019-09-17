@@ -25,7 +25,7 @@ public class FindPairsInArray {
         {
             //If inputArray[i]+inputArray[j] is equal to inputNumber
  
-        	System.out.println(i+" "+j);
+        	//System.out.println(i+" "+j);
             if(inputArray[i]+inputArray[j] == inputNumber)
             {
                 //then Print inputArray[i] and inputArray[j]
