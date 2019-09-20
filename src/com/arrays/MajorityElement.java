@@ -17,21 +17,31 @@ public class MajorityElement {
 	 */
 	public static void main(String[] args) {
 
-		List<Integer> lst = new ArrayList<>();
-
-		for (int i = 0; i < 100; i++) {
-			lst.add(i);
-		}
-		lst.add(1);
-		System.out.println(lst);
-		int res = Collections.max(lst);
-		Collections.rotate(lst, 2);
-		System.out.println(Collections.frequency(lst, 1));
-		Collections co = null;
-		List<List<Integer>> arr = co.nCopies(2, lst);
-		System.out.println(arr);
-		System.out.println(lst);
+		int N = 5;
+		int arr[] = { 3, 1, 3, 3, 2 };
+		int res = getMaxRep(N, arr);
 		System.out.println(res);
+	}
+
+	private static int getMaxRep(int n, int[] arr) {
+		int res = -1, c = 0;
+		Map<Integer, Integer> map = new HashMap<>();
+		for (int ele : arr) {
+			if (map.containsKey(ele)) {
+				c = map.get(ele);
+				c++;
+				map.put(ele, c);
+			} else
+				map.put(ele, 1);
+		}
+		int max = n / 2;
+		Set<Integer> set = map.keySet();
+		for (int key : set) {
+			if (map.get(key) >= max) {
+				res = map.get(key);
+			}
+		}
+		return res;
 	}
 
 }
