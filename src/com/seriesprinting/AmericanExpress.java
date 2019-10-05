@@ -3,6 +3,7 @@ package com.seriesprinting;
 import java.util.Scanner;
 
 public class AmericanExpress {
+	// print series 1 1 2 2 4 2 6 for input = 7
 	private static int var = 1;
 
 	public static void main(String[] args) {
