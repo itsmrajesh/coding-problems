@@ -4,6 +4,7 @@ public class FindNthNumberInSeries {
 
 	public static void main(String[] args) {
 		// Series: 1 5 13 25 41 61 85 113
+		//input: n=7 output: 85
 		int n = 7;
 		int sqrt = 1, prev = 0, res = 0;
 		for (int i = 1; i <= n; i++) {
