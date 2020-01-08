@@ -17,7 +17,7 @@ public class StringToInteger {
 		
 		for (int i = 0; i < len; i++) {
 			if (ch[i] >= '0' && ch[i] <= '9') {
-				System.out.print(ch[i]);
+				System.out.print(ch[i]); // printing 
 			}
 		}
 	}
