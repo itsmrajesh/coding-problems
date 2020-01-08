@@ -12,7 +12,6 @@ package com.techgig;
  * */
 
 
-import java.io.*;
 import java.util.*;
 public class SubStringCount {
    public static void main(String args[] ) throws Exception {
