@@ -11,7 +11,6 @@ public class Denominations {
 			int res = (int)Math.pow(10, size--);
 			System.out.println(digit+"*"+res+" = "+(digit*res));
 		}
-
 	}
 
 }
