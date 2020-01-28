@@ -1,6 +1,5 @@
 package com.batch_2;
 
-import java.util.Arrays;
 
 public class GetCompanyFromString {
 
@@ -9,9 +8,10 @@ public class GetCompanyFromString {
 		String arr[] = emails.split(",");
 		for (String email : arr) {
 			String[] company = email.split("@");
-			String e = company[1];
-			System.out.println(Arrays.toString(e.split(".")));
+			String companyName = company[1].split("\\.")[0]; // spliting with . should be replace with \\.
+			System.out.println(companyName);
 		}
+
 	}
 
 }
