@@ -13,9 +13,9 @@ public class CountAlpha {
 		int alphaCount = 0, numberCount = 0, spaceCount = 0;
 		
 		for (char ch : arr) {
-			if (ch >= 'a' && ch <= 'z')
+			if (ch >= 'a' && ch <= 'z') 
 				alphaCount++;
-			else if (ch >= '0' && ch <= '9')
+			else if (ch >= '0' && ch <= '9') // check for number
 				numberCount++;
 			else if (ch == ' ') // check for space
 				spaceCount++;
